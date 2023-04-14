@@ -13,6 +13,9 @@
 		04DF07FE29E8DE0C0061CF58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FD29E8DE0C0061CF58 /* Preview Assets.xcassets */; };
 		04DF080529E8E0FA0061CF58 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF080429E8E0FA0061CF58 /* CircleImage.swift */; };
 		04DF080729E8E1CA0061CF58 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF080629E8E1CA0061CF58 /* MapView.swift */; };
+		04DF080929E8E4030061CF58 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DF080829E8E4030061CF58 /* landmarkData.json */; };
+		04DF080B29E8E41C0061CF58 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF080A29E8E41C0061CF58 /* Landmark.swift */; };
+		04DF080D29E8E5620061CF58 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF080C29E8E5620061CF58 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		04DF07FD29E8DE0C0061CF58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04DF080429E8E0FA0061CF58 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		04DF080629E8E1CA0061CF58 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04DF080829E8E4030061CF58 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		04DF080A29E8E41C0061CF58 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		04DF080C29E8E5620061CF58 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +61,12 @@
 		04DF07F529E8DE0B0061CF58 /* 0706012110045-Nicholas CI-AFL 3 */ = {
 			isa = PBXGroup;
 			children = (
+				04DF081129E8E65E0061CF58 /* Model */,
 				04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */,
-				04DF07F829E8DE0B0061CF58 /* ContentView.swift */,
+				04DF080E29E8E5F00061CF58 /* Views */,
 				04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */,
 				04DF07FC29E8DE0C0061CF58 /* Preview Content */,
-				04DF080429E8E0FA0061CF58 /* CircleImage.swift */,
-				04DF080629E8E1CA0061CF58 /* MapView.swift */,
+				04DF080F29E8E61F0061CF58 /* Resources */,
 			);
 			path = "0706012110045-Nicholas CI-AFL 3";
 			sourceTree = "<group>";
@@ -71,6 +77,33 @@
 				04DF07FD29E8DE0C0061CF58 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04DF080E29E8E5F00061CF58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04DF07F829E8DE0B0061CF58 /* ContentView.swift */,
+				04DF080429E8E0FA0061CF58 /* CircleImage.swift */,
+				04DF080629E8E1CA0061CF58 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04DF080F29E8E61F0061CF58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04DF080829E8E4030061CF58 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04DF081129E8E65E0061CF58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DF080A29E8E41C0061CF58 /* Landmark.swift */,
+				04DF080C29E8E5620061CF58 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +166,7 @@
 			files = (
 				04DF07FE29E8DE0C0061CF58 /* Preview Assets.xcassets in Resources */,
 				04DF07FB29E8DE0C0061CF58 /* Assets.xcassets in Resources */,
+				04DF080929E8E4030061CF58 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +181,8 @@
 				04DF080729E8E1CA0061CF58 /* MapView.swift in Sources */,
 				04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
 				04DF080529E8E0FA0061CF58 /* CircleImage.swift in Sources */,
+				04DF080B29E8E41C0061CF58 /* Landmark.swift in Sources */,
+				04DF080D29E8E5620061CF58 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
