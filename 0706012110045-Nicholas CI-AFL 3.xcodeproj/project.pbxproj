@@ -20,6 +20,7 @@
 		04DF081929E8E9250061CF58 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF081829E8E9250061CF58 /* LandmarkList.swift */; };
 		04DF081B29E8EAA00061CF58 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF081A29E8EAA00061CF58 /* LandmarkDetail.swift */; };
 		04DF081D29E8F52F0061CF58 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF081C29E8F52F0061CF58 /* FavoriteButton.swift */; };
+		04DF082129E8F6EF0061CF58 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF082029E8F6EF0061CF58 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		04DF081829E8E9250061CF58 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		04DF081A29E8EAA00061CF58 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		04DF081C29E8F52F0061CF58 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		04DF082029E8F6EF0061CF58 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				04DF081F29E8F5CA0061CF58 /* Helpers */,
 				04DF07F829E8DE0B0061CF58 /* ContentView.swift */,
 				04DF081E29E8F5AF0061CF58 /* Landmarks */,
+				04DF082029E8F6EF0061CF58 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				04DF080729E8E1CA0061CF58 /* MapView.swift in Sources */,
 				04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
 				04DF081D29E8F52F0061CF58 /* FavoriteButton.swift in Sources */,
+				04DF082129E8F6EF0061CF58 /* HexagonParameters.swift in Sources */,
 				04DF081929E8E9250061CF58 /* LandmarkList.swift in Sources */,
 				04DF081B29E8EAA00061CF58 /* LandmarkDetail.swift in Sources */,
 				04DF080529E8E0FA0061CF58 /* CircleImage.swift in Sources */,
