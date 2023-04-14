@@ -18,6 +18,7 @@
 		04DF080D29E8E5620061CF58 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF080C29E8E5620061CF58 /* ModelData.swift */; };
 		04DF081329E8E7040061CF58 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF081229E8E7040061CF58 /* LandmarkRow.swift */; };
 		04DF081929E8E9250061CF58 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF081829E8E9250061CF58 /* LandmarkList.swift */; };
+		04DF081B29E8EAA00061CF58 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF081A29E8EAA00061CF58 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		04DF080C29E8E5620061CF58 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		04DF081229E8E7040061CF58 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		04DF081829E8E9250061CF58 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		04DF081A29E8EAA00061CF58 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				04DF080629E8E1CA0061CF58 /* MapView.swift */,
 				04DF081229E8E7040061CF58 /* LandmarkRow.swift */,
 				04DF081829E8E9250061CF58 /* LandmarkList.swift */,
+				04DF081A29E8EAA00061CF58 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				04DF080729E8E1CA0061CF58 /* MapView.swift in Sources */,
 				04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
 				04DF081929E8E9250061CF58 /* LandmarkList.swift in Sources */,
+				04DF081B29E8EAA00061CF58 /* LandmarkDetail.swift in Sources */,
 				04DF080529E8E0FA0061CF58 /* CircleImage.swift in Sources */,
 				04DF080B29E8E41C0061CF58 /* Landmark.swift in Sources */,
 				04DF081329E8E7040061CF58 /* LandmarkRow.swift in Sources */,
