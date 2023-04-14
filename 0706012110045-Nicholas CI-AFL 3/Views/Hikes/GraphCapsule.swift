@@ -7,6 +7,7 @@ A single line in the graph.
 
 import SwiftUI
 
+// The struct to represent a component of the graph view, more specifically the capsules
 struct GraphCapsule: View, Equatable {
     var index: Int
     var color: Color

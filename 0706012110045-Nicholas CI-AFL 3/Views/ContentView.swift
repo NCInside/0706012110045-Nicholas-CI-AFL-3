@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// The struct to represent the whole view of the application content
 struct ContentView: View {
     var body: some View {
         LandmarkList()

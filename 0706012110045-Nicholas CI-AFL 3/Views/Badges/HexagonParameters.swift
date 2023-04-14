@@ -7,7 +7,9 @@
 
 import Foundation
 
+// The struct to represent the parameters needed to draw a hexagon shape
 struct HexagonParameters {
+    // The struct to represent parts or segments that makes a hexagon
     struct Segment {
         let line: CGPoint
         let curve: CGPoint

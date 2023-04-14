@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+// The struct to represent the detail page or view of a specific landmark
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
 
+    // Get the landmark that the detail wanted to show
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }

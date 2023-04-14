@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// The struct to represent landmark images in the shape of a circle
 struct CircleImage: View {
     var image: Image
     

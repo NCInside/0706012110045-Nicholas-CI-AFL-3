@@ -7,6 +7,7 @@ A view showing the details for a hike.
 
 import SwiftUI
 
+// The struct to represent the details of the graph view
 struct HikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation
@@ -22,6 +23,7 @@ struct HikeDetail: View {
             HikeGraph(hike: hike, path: dataToShow)
                 .frame(height: 200)
 
+            // Showing the buttons for each detail constraints
             HStack(spacing: 25) {
                 ForEach(buttons, id: \.0) { value in
                     Button {

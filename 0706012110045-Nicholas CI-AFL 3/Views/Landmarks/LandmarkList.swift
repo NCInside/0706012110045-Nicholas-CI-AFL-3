@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+// The struct to represent rows of landmarks and their name in a list
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
 
+    // Filter to show favorite landmark
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
@@ -24,6 +26,7 @@ struct LandmarkList: View {
                     Text("Favorites only")
                 }
 
+                // Showing or not of the favorites of landmark
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)

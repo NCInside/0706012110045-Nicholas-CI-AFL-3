@@ -7,6 +7,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 
 import SwiftUI
 
+// The extension to customize the animation, more specifically giving effects of spring with custom speed and display
 extension Animation {
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
@@ -15,10 +16,12 @@ extension Animation {
     }
 }
 
+// The struct to represent a graph view
 struct HikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>
 
+    // Change graph color based on button detail prompt
     var color: Color {
         switch path {
         case \.elevation:
@@ -38,6 +41,7 @@ struct HikeGraph: View {
         let maxMagnitude = data.map { magnitude(of: $0[keyPath: path]) }.max()!
         let heightRatio = 1 - CGFloat(maxMagnitude / magnitude(of: overallRange))
 
+        // Calculate the shape of graph
         return GeometryReader { proxy in
             HStack(alignment: .bottom, spacing: proxy.size.width / 120) {
                 ForEach(Array(data.enumerated()), id: \.offset) { index, observation in
@@ -55,6 +59,7 @@ struct HikeGraph: View {
     }
 }
 
+// Show the x coordinate of graph
 func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     where C.Element == Range<Double> {
     guard !ranges.isEmpty else { return 0..<0 }
@@ -63,6 +68,7 @@ func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     return low..<high
 }
 
+// Show the y coordinate of graph
 func magnitude(of range: Range<Double>) -> Double {
     range.upperBound - range.lowerBound
 }

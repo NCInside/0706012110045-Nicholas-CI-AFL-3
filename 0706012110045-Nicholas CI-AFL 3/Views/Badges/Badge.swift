@@ -7,8 +7,10 @@
 
 import SwiftUI
 
+// This struct represent the badge view components as a whole in complete
 struct Badge: View {
     var badgeSymbols: some View {
+        // Judge the angle in rotation to create a figure of 8 copy around a center
         ForEach(0..<8) { index in
             RotatedBadgeSymbol(
                 angle: .degrees(Double(index) / Double(8)) * 360.0

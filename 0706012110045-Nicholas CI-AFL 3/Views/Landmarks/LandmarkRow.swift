@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// The struct to represent a row consisting of landmark image and name in a list view
 struct LandmarkRow: View {
     var landmark: Landmark
     

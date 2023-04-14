@@ -7,6 +7,7 @@
 
 import Foundation
 
+// The struct model for the hikeData.json, consisting of data within the json
 struct Hike: Codable, Hashable, Identifiable {
     var id: Int
     var name: String

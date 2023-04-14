@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+// The struct to represent the view of a map according to certain parameters such as coordinates
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
@@ -19,6 +20,7 @@ struct MapView: View {
             }
     }
     
+    // Setting the coordinate for a location
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         region = MKCoordinateRegion(
             center: coordinate,

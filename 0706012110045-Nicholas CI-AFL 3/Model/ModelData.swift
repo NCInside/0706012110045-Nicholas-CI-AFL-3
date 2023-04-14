@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+// The class to load and interact with the json data
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")

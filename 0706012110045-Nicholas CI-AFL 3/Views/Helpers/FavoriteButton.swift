@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// The struct to represent a component of button favorite view in the shape of a star
 struct FavoriteButton: View {
     @Binding var isSet: Bool
 

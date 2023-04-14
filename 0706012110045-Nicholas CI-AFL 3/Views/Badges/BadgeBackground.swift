@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// The struct to represent the background for a badge view
 struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
@@ -23,6 +24,7 @@ struct BadgeBackground: View {
                     )
                 )
 
+                // Create the shape of a hexagon based on each parameters
                 HexagonParameters.segments.forEach { segment in
                     path.addLine(
                         to: CGPoint(

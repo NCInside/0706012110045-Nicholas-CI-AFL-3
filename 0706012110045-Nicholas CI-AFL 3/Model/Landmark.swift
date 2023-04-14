@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
+// The struct model for the landmarkData.json, consisting of data within the json
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var name: String

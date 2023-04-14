@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// This struct represent the effect of tilt or rotation to a badge symbol
 struct RotatedBadgeSymbol: View {
     let angle: Angle
     
