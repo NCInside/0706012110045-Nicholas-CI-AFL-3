@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04216B6C29EE1BD200617856 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B6B29EE1BD200617856 /* CategoryHome.swift */; };
+		04216B6E29EE1DC800617856 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B6D29EE1DC700617856 /* CategoryRow.swift */; };
+		04216B7029EE1E1800617856 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B6F29EE1E1800617856 /* CategoryItem.swift */; };
 		04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */; };
 		04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F829E8DE0B0061CF58 /* ContentView.swift */; };
 		04DF07FB29E8DE0C0061CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		04216B6B29EE1BD200617856 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		04216B6D29EE1DC700617856 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		04216B6F29EE1E1800617856 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		04DF07F329E8DE0B0061CF58 /* 0706012110045-Nicholas CI-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110045-Nicholas CI-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110045_Nicholas_CI_AFL_3App.swift; sourceTree = "<group>"; };
 		04DF07F829E8DE0B0061CF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				04216B6B29EE1BD200617856 /* CategoryHome.swift */,
+				04216B6D29EE1DC700617856 /* CategoryRow.swift */,
+				04216B6F29EE1E1800617856 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04216B6E29EE1DC800617856 /* CategoryRow.swift in Sources */,
 				04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */,
 				04216B6C29EE1BD200617856 /* CategoryHome.swift in Sources */,
 				04DF083529E8FC4E0061CF58 /* HikeGraph.swift in Sources */,
@@ -274,6 +281,7 @@
 				04DF083429E8FC4E0061CF58 /* GraphCapsule.swift in Sources */,
 				04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
 				04DF081D29E8F52F0061CF58 /* FavoriteButton.swift in Sources */,
+				04216B7029EE1E1800617856 /* CategoryItem.swift in Sources */,
 				04DF083629E8FC4E0061CF58 /* HikeDetail.swift in Sources */,
 				04DF082129E8F6EF0061CF58 /* HexagonParameters.swift in Sources */,
 				04DF082E29E8FC0E0061CF58 /* Hike.swift in Sources */,
