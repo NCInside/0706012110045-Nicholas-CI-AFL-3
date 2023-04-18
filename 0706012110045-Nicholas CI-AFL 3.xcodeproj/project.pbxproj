@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04216B6C29EE1BD200617856 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B6B29EE1BD200617856 /* CategoryHome.swift */; };
 		04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */; };
 		04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F829E8DE0B0061CF58 /* ContentView.swift */; };
 		04DF07FB29E8DE0C0061CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04216B6B29EE1BD200617856 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		04DF07F329E8DE0B0061CF58 /* 0706012110045-Nicholas CI-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110045-Nicholas CI-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110045_Nicholas_CI_AFL_3App.swift; sourceTree = "<group>"; };
 		04DF07F829E8DE0B0061CF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04216B6A29EE1BB100617856 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				04216B6B29EE1BD200617856 /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		04DF07EA29E8DE0B0061CF58 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		04DF080E29E8E5F00061CF58 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04216B6A29EE1BB100617856 /* Categories */,
 				04DF082F29E8FC4E0061CF58 /* Hikes */,
 				04DF082A29E8FB230061CF58 /* Badges */,
 				04DF081F29E8F5CA0061CF58 /* Helpers */,
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */,
+				04216B6C29EE1BD200617856 /* CategoryHome.swift in Sources */,
 				04DF083529E8FC4E0061CF58 /* HikeGraph.swift in Sources */,
 				04DF082929E8F99A0061CF58 /* Badge.swift in Sources */,
 				04DF080729E8E1CA0061CF58 /* MapView.swift in Sources */,
