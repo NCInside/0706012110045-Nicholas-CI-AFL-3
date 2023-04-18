@@ -18,6 +18,7 @@
 		04216B7E29EE2A1000617856 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B7D29EE2A1000617856 /* PageViewController.swift */; };
 		04216B8029EE2BAF00617856 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B7F29EE2BAF00617856 /* FeatureCard.swift */; };
 		04216B8229EE2BE900617856 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B8129EE2BE900617856 /* PageView.swift */; };
+		04216B8429EE307A00617856 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216B8329EE307A00617856 /* PageControl.swift */; };
 		04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */; };
 		04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F829E8DE0B0061CF58 /* ContentView.swift */; };
 		04DF07FB29E8DE0C0061CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		04216B7D29EE2A1000617856 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		04216B7F29EE2BAF00617856 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		04216B8129EE2BE900617856 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		04216B8329EE307A00617856 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		04DF07F329E8DE0B0061CF58 /* 0706012110045-Nicholas CI-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110045-Nicholas CI-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110045_Nicholas_CI_AFL_3App.swift; sourceTree = "<group>"; };
 		04DF07F829E8DE0B0061CF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				04216B7D29EE2A1000617856 /* PageViewController.swift */,
 				04216B7F29EE2BAF00617856 /* FeatureCard.swift */,
 				04216B8129EE2BE900617856 /* PageView.swift */,
+				04216B8329EE307A00617856 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				04DF080729E8E1CA0061CF58 /* MapView.swift in Sources */,
 				04DF083429E8FC4E0061CF58 /* GraphCapsule.swift in Sources */,
 				04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
+				04216B8429EE307A00617856 /* PageControl.swift in Sources */,
 				04DF081D29E8F52F0061CF58 /* FavoriteButton.swift in Sources */,
 				04216B7029EE1E1800617856 /* CategoryItem.swift in Sources */,
 				04DF083629E8FC4E0061CF58 /* HikeDetail.swift in Sources */,
