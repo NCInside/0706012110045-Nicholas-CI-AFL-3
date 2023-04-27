@@ -35,6 +35,7 @@
 		0432054429FA99440018D78B /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF082D29E8FC0E0061CF58 /* Hike.swift */; };
 		0432054529FA99440018D78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */; };
 		0432054629FA99440018D78B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF080A29E8E41C0061CF58 /* Landmark.swift */; };
+		0432054829FA9ACB0018D78B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432054729FA9ACB0018D78B /* LandmarkDetail.swift */; };
 		04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */; };
 		04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F829E8DE0B0061CF58 /* ContentView.swift */; };
 		04DF07FB29E8DE0C0061CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		04216B8F29EE322B00617856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04216B9229EE322B00617856 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04216B9429EE322B00617856 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		0432054729FA9ACB0018D78B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		04DF07F329E8DE0B0061CF58 /* 0706012110045-Nicholas CI-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110045-Nicholas CI-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110045_Nicholas_CI_AFL_3App.swift; sourceTree = "<group>"; };
 		04DF07F829E8DE0B0061CF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				04216B8F29EE322B00617856 /* Assets.xcassets */,
 				04216B9429EE322B00617856 /* MacLandmarks.entitlements */,
 				04216B9129EE322B00617856 /* Preview Content */,
+				0432054729FA9ACB0018D78B /* LandmarkDetail.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				0432054629FA99440018D78B /* Landmark.swift in Sources */,
 				0432053E29FA99440018D78B /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
 				0432054029FA99440018D78B /* Profile.swift in Sources */,
+				0432054829FA9ACB0018D78B /* LandmarkDetail.swift in Sources */,
 				0432054329FA99440018D78B /* ModelData.swift in Sources */,
 				0432053C29FA99440018D78B /* FavoriteButton.swift in Sources */,
 				0432054129FA99440018D78B /* CircleImage.swift in Sources */,
