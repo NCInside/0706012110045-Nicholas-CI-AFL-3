@@ -16,5 +16,10 @@ struct _706012110045_Nicholas_CI_AFL_3App: App {
             ContentView()
                 .environmentObject(modelData)
         }
+        #if !os(watchOS)
+        .commands {
+            LandmarkCommands()
+        }
+        #endif
     }
 }
