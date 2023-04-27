@@ -38,6 +38,7 @@
 		0432054829FA9ACB0018D78B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432054729FA9ACB0018D78B /* LandmarkDetail.swift */; };
 		0432054A29FAA2600018D78B /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432054929FAA2600018D78B /* LandmarkCommands.swift */; };
 		0432054B29FAA2600018D78B /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432054929FAA2600018D78B /* LandmarkCommands.swift */; };
+		0432054D29FAA5D80018D78B /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432054C29FAA5D80018D78B /* LandmarkSettings.swift */; };
 		04DF07F729E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */; };
 		04DF07F929E8DE0B0061CF58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF07F829E8DE0B0061CF58 /* ContentView.swift */; };
 		04DF07FB29E8DE0C0061CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DF07FA29E8DE0C0061CF58 /* Assets.xcassets */; };
@@ -84,6 +85,7 @@
 		04216B9429EE322B00617856 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
 		0432054729FA9ACB0018D78B /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		0432054929FAA2600018D78B /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		0432054C29FAA5D80018D78B /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		04DF07F329E8DE0B0061CF58 /* 0706012110045-Nicholas CI-AFL 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0706012110045-Nicholas CI-AFL 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF07F629E8DE0B0061CF58 /* _706012110045_Nicholas_CI_AFL_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110045_Nicholas_CI_AFL_3App.swift; sourceTree = "<group>"; };
 		04DF07F829E8DE0B0061CF58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				04216B9129EE322B00617856 /* Preview Content */,
 				0432054729FA9ACB0018D78B /* LandmarkDetail.swift */,
 				0432054929FAA2600018D78B /* LandmarkCommands.swift */,
+				0432054C29FAA5D80018D78B /* LandmarkSettings.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			files = (
 				0432054429FA99440018D78B /* Hike.swift in Sources */,
 				0432054629FA99440018D78B /* Landmark.swift in Sources */,
+				0432054D29FAA5D80018D78B /* LandmarkSettings.swift in Sources */,
 				0432053E29FA99440018D78B /* _706012110045_Nicholas_CI_AFL_3App.swift in Sources */,
 				0432054029FA99440018D78B /* Profile.swift in Sources */,
 				0432054B29FAA2600018D78B /* LandmarkCommands.swift in Sources */,
