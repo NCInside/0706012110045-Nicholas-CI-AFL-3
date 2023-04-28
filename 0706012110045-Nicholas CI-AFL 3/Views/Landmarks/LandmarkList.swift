@@ -23,6 +23,7 @@ struct LandmarkList: View {
         var id: FilterCategory { self }
     }
 
+    //filtering based on categories or favorites
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
@@ -30,6 +31,7 @@ struct LandmarkList: View {
         }
     }
 
+    //title based on filter selected
     var title: String {
         let title = filter == .all ? "Landmarks" : filter.rawValue
         return showFavoritesOnly ? "Favorite \(title)" : title

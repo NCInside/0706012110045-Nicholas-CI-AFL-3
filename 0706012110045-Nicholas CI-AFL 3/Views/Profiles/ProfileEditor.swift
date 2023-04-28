@@ -32,6 +32,7 @@ struct ProfileEditor: View {
                 Text("Seasonal Photo").bold()
                 
                 Picker("Seasonal Photo", selection: $profile.seasonalPhoto) {
+                    //display selections of season
                     ForEach(Profile.Season.allCases) { season in
                         Text(season.rawValue).tag(season)
                     }

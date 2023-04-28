@@ -15,6 +15,7 @@ struct ProfileHost: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             HStack {
+                //content if editing
                 if editMode?.wrappedValue == .active {
                     Button("Cancel", role: .cancel) {
                         draftProfile = modelData.profile
@@ -25,6 +26,7 @@ struct ProfileHost: View {
                 EditButton()
             }
 
+            //content if not editing
             if editMode?.wrappedValue == .inactive {
                 ProfileSummary(profile: modelData.profile)
             } else {

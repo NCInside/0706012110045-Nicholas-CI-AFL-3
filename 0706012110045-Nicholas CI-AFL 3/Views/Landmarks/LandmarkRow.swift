@@ -20,6 +20,7 @@ struct LandmarkRow: View {
             VStack(alignment: .leading) {
                 Text(landmark.name)
                     .bold()
+                //display text only if not in watch environment
                 #if !os(watchOS)
                 Text(landmark.park)
                     .font(.caption)
@@ -29,6 +30,7 @@ struct LandmarkRow: View {
 
             Spacer()
 
+            //add star symbol if landmark is favorite
             if landmark.isFavorite {
                 Image(systemName: "star.fill")
                     .imageScale(.medium)

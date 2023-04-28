@@ -23,6 +23,7 @@ struct Badge: View {
         ZStack {
             BadgeBackground()
             
+            //apply the treated rotated badge with further scaling and positioning for fitting
             GeometryReader { geometry in
                 badgeSymbols
                     .scaleEffect(1.0 / 4.0, anchor: .top)

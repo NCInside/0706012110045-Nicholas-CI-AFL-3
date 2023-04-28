@@ -50,6 +50,7 @@ struct HikeView: View {
                 }
             }
 
+            //animate transition when detail interacted
             if showDetail {
                 HikeDetail(hike: hike)
                     .transition(.slide)
